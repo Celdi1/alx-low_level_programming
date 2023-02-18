@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/**
+ * main - prints alpha in lower and upper case
+ * Return: 0
+ */
+int main(void)
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchat(ch);
+
+	for (ch = 'A'; cha <= 'Z'; ch++)
+		putchar(ch);
+
+	putchar('\n');
+
+	return (0);
+}
