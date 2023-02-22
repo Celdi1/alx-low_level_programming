@@ -2,8 +2,7 @@
 
 /**
  * main - Main block
- * Description: Finds and prints the sum of even valued
- * terms less than 4,000,000
+ * Description: Prints the sum of even valued terms
  * Return: 0
  */
 int main(void)
