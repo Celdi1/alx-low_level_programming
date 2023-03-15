@@ -43,7 +43,6 @@ char **strtow(char *str)
 
 	while (*(str + len))
 		len++;
-
 	words = count_word(str);
 
 	if (words == 0)
@@ -65,7 +64,6 @@ char **strtow(char *str)
 
 				if (tmp == NULL)
 					return (NULL);
-
 				while (start < end)
 					*tmp++ = str[start++];
 				*tmp = '\0';
@@ -78,8 +76,6 @@ char **strtow(char *str)
 		else if (c++ == 0)
 			start = i;
 	}
-
 	matrix[k] = NULL;
-
 	return (matrix);
 }
